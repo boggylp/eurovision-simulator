@@ -1,3 +1,5 @@
+using Eurovision.Simulator.Api;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
@@ -26,7 +28,10 @@ app.MapGet("/weatherforecast", () =>
 
 app.Run();
 
-internal sealed record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+namespace Eurovision.Simulator.Api
 {
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    internal sealed record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+    {
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
 }
