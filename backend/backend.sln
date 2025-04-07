@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE25621E-AB1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurovision.Simulator.Api", "src\Eurovision.Simulator.Api\Eurovision.Simulator.Api.csproj", "{237AB190-16F3-4451-9350-5E9E5543B7BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurovision.Simulator.Infrastructure", "Eurovision.Simulator.Infrastructure\Eurovision.Simulator.Infrastructure.csproj", "{45ED6BFD-1591-444C-82FF-6F249F0DABC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurovision.Simulator.Infrastructure", "src\Eurovision.Simulator.Infrastructure\Eurovision.Simulator.Infrastructure.csproj", "{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -34,21 +34,21 @@ Global
 		{237AB190-16F3-4451-9350-5E9E5543B7BC}.Release|x64.Build.0 = Release|Any CPU
 		{237AB190-16F3-4451-9350-5E9E5543B7BC}.Release|x86.ActiveCfg = Release|Any CPU
 		{237AB190-16F3-4451-9350-5E9E5543B7BC}.Release|x86.Build.0 = Release|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Debug|x64.Build.0 = Debug|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Debug|x86.Build.0 = Debug|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Release|x64.ActiveCfg = Release|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Release|x64.Build.0 = Release|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Release|x86.ActiveCfg = Release|Any CPU
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1}.Release|x86.Build.0 = Release|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Release|x64.Build.0 = Release|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{237AB190-16F3-4451-9350-5E9E5543B7BC} = {CE25621E-AB15-4FF2-8B88-48DA7FBFC5E1}
-		{45ED6BFD-1591-444C-82FF-6F249F0DABC1} = {CE25621E-AB15-4FF2-8B88-48DA7FBFC5E1}
+		{C5F3D7FC-C26B-42E4-A2F9-20E158804C5C} = {CE25621E-AB15-4FF2-8B88-48DA7FBFC5E1}
 	EndGlobalSection
 EndGlobal
