@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Caching.Memory;
 
-namespace Eurovision.Simulator.Infrastructure;
+namespace Eurovision.Simulator.Infrastructure.Services;
 
 public interface ICacheService
 {

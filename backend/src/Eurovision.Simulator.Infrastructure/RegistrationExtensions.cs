@@ -1,4 +1,6 @@
 using Eurovision.Simulator.Infrastructure.Entities;
+using Eurovision.Simulator.Infrastructure.Repositories;
+using Eurovision.Simulator.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Eurovision.Simulator.Infrastructure;
@@ -10,8 +12,8 @@ public static class RegistrationExtensions
         serviceCollection.AddMemoryCache()
             .AddSingleton(TimeProvider.System)
             .AddSingleton<ICacheService, CacheService>()
-            .AddCsvRepository<ArtistEntity>("countries.csv")
-            .AddCsvRepository<CountryEntity>("participants_2025.csv");
+            .AddCsvRepository<CountryEntity>(Path.Combine(AppContext.BaseDirectory, "countries.csv"))
+            .AddCsvRepository<ArtistEntity>(Path.Combine(AppContext.BaseDirectory, "participants_2025.csv"));
     }
 
     private static IServiceCollection AddCsvRepository<T>(this IServiceCollection serviceCollection, string csvFilePath)

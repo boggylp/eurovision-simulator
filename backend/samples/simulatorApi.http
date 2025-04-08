@@ -1,6 +1,6 @@
 @apiEndpoint = http://localhost:5000
 
-GET {{apiEndpoint}}/weatherforecast/
+POST {{apiEndpoint}}/start
 Accept: application/json
 
 ###

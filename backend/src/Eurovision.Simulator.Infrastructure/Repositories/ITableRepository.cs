@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace Eurovision.Simulator.Infrastructure;
+namespace Eurovision.Simulator.Infrastructure.Repositories;
 
 public interface ITableRepository<T> where T : class
 {
