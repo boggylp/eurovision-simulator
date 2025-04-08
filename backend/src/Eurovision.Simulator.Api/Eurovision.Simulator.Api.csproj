@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Eurovision.Simulator.Infrastructure\Eurovision.Simulator.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
